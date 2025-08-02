@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background: #eeeeee;
+    max-width: 710px;
+	margin: auto;  
+}
+
+.container{
+    background-color: #ffecd1;
+    border-radius: 20px;
+    margin-top: 28vh;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.choice{
+    height: 155px;
+    width: 155px;
+    margin: 30px;
+}
+
+img:hover{
+    border: 0.1rem solid #575757;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 4px 16px, rgba(17, 17, 26, 0.2) 0px 8px 24px, rgba(17, 17, 26, 0.2) 0px 16px 56px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.score{
+    color: white;
+    background-color: #001524;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    
+}
+
+.msg-cont{
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    font-size: 1.1rem;
+    background-color: #001524;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    color: white;
+    display: inline;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#plyr-score{
+    padding-left: 0.2rem;
+}
+#comp-score{
+    padding-left: 0.2rem;
+}
+
+.reset{
+    color: white;
+    background-color: #001524;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
